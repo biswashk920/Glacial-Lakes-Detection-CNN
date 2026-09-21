@@ -1,0 +1,23 @@
+# Large raster/image files
+*.tif
+*.tiff
+
+# Model checkpoint
+*.pth
+
+# Patch arrays (thousands of small files)
+patches/
+
+# Regeneratable intermediate output
+outputlakes/metadata.npy
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
